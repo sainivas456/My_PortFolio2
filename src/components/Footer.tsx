@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
                 SAINIVAS GANDHAM
               </h3>
               <p className="text-gray-400 mb-4 max-w-md">
-                Full Stack Developer with expertise in Spring Boot, React, Angular, and cloud technologies.
+                Full Stack Developer with expertise in Spring Boot, React, Angular, cloud and Machine Learning technologies.
                 Passionate about building robust and scalable applications.
               </p>
               <div className="flex space-x-4">
