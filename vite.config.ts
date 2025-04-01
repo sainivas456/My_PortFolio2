@@ -3,7 +3,6 @@ import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig(({ }) => ({
-  base: './',
   server: {
     host: "::",
     port: 8080,
@@ -14,14 +13,6 @@ export default defineConfig(({ }) => ({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-    },
-  },
-  optimizeDeps: {
-    include: ['@emailjs/browser'], // ✅ Ensures it's pre-bundled during dev
-  },
-  build: {
-    rollupOptions: {
-      external: ['@emailjs/browser'], // ✅ Externalizes it to avoid build issues
     },
   },
 }));
