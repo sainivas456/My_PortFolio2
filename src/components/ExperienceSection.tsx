@@ -29,8 +29,8 @@ const ExperienceSection: React.FC = () => {
       color: "cyan-500"
     },
     {
-      company: "Software Development Engineer",
-      role: "Java Full Stack Developer",
+      company: "Tata Consultancy Services",
+      role: "Software Development Engineer",
       period: "Jul 2021 - Aug 2023",
       situation: "At TCS, I was a full-stack developer on a large-scale enterprise e-commerce platform for a global client. The system needed modernization and new features to handle growing traffic and user expectations. Product search and catalog management were particularly slow and not very user-friendly, hurting the shopping experience.",
       task: "Our team's mission was to build a modern, single-page application with a dynamic front-end and a scalable microservice back-end, improving usability and performance for millions of users while enhancing the catalog and search functionality.",
